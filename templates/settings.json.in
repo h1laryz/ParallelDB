@@ -1,0 +1,10 @@
+{
+  "psql" : 
+  {
+          "name" : "$ENV{PARALLEL_DB_NAME}",
+          "ip" : "$ENV{PARALLEL_DB_IP}",
+          "port" : $ENV{PARALLEL_DB_PORT},
+          "user_name" : "$ENV{PARALLEL_DB_USER_NAME}",
+          "user_password" : "$ENV{PARALLEL_DB_USER_PASSWORD}"
+  }
+}
